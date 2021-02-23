@@ -15,11 +15,19 @@
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Create>
             <Read>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Read>
             <Update>
@@ -27,11 +35,19 @@
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Update>
             <Delete>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Delete>
             <Metadata></Metadata>
@@ -91,7 +107,23 @@
                 </EventSubscribe>
             </Permissions>
         </RunTimePermissions>
-        <Entities></Entities>
+        <Entities>
+            <Entity
+             name="TagCICD"
+             type="ModelTagVocabulary">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+        </Entities>
     </ModelTags>
     <DataTags>
         <VisibilityPermissions>
@@ -213,6 +245,10 @@
                  isPermitted="true"
                  name="FactoryUsers"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Create>
             <Read>
                 <Principal
@@ -222,6 +258,10 @@
                 <Principal
                  isPermitted="true"
                  name="FactoryUsers"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Read>
             <Update>
@@ -233,6 +273,10 @@
                  isPermitted="true"
                  name="FactoryUsers"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Update>
             <Delete>
                 <Principal
@@ -242,6 +286,10 @@
                 <Principal
                  isPermitted="true"
                  name="FactoryUsers"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Delete>
             <Metadata></Metadata>
@@ -266,6 +314,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -283,6 +335,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -306,6 +362,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -324,6 +384,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
                     <Principal
@@ -341,6 +405,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
@@ -455,6 +523,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -476,6 +548,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -503,6 +579,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -525,6 +605,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
                     <Principal
@@ -546,6 +630,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
@@ -806,6 +894,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -815,6 +907,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -826,6 +922,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -835,6 +935,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
@@ -846,10 +950,30 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
         </RunTimePermissions>
-        <Entities></Entities>
+        <Entities>
+            <Entity
+             name="TestResultData"
+             type="DataShape">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+        </Entities>
     </DataShapes>
     <ThingShapes>
         <VisibilityPermissions>
@@ -872,6 +996,10 @@
                  type="Group"></Principal>
                 <Principal
                  isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
                  name="TW.AnalyticsManager.Admin"
                  type="Group"></Principal>
             </Create>
@@ -886,6 +1014,10 @@
                  type="Group"></Principal>
                 <Principal
                  isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
                  name="TW.AnalyticsManager.Admin"
                  type="Group"></Principal>
             </Read>
@@ -894,11 +1026,19 @@
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Update>
             <Delete>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Delete>
             <Metadata></Metadata>
@@ -915,6 +1055,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -924,6 +1068,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -935,6 +1083,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -944,6 +1096,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
@@ -955,10 +1111,31 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
         </RunTimePermissions>
-        <Entities></Entities>
+        <Entities>
+            <Entity
+             name="TestingTS"
+             type="ThingShape">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+                <RunTimeInstancePermissions></RunTimeInstancePermissions>
+            </Entity>
+        </Entities>
     </ThingShapes>
     <ThingPackages>
         <VisibilityPermissions>
@@ -1019,6 +1196,10 @@
                  type="Group"></Principal>
                 <Principal
                  isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
                  name="TW.AnalyticsManager.Admin"
                  type="Group"></Principal>
             </Create>
@@ -1033,6 +1214,10 @@
                  type="Group"></Principal>
                 <Principal
                  isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
                  name="TW.AnalyticsManager.Admin"
                  type="Group"></Principal>
             </Read>
@@ -1041,11 +1226,19 @@
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Update>
             <Delete>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Delete>
             <Metadata></Metadata>
@@ -1062,6 +1255,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -1071,6 +1268,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -1082,6 +1283,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -1092,6 +1297,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
                     <Principal
@@ -1101,6 +1310,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
@@ -1159,6 +1372,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -1168,6 +1385,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -1179,6 +1400,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -1189,6 +1414,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
                     <Principal
@@ -1198,6 +1427,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
@@ -1470,6 +1703,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -1479,6 +1716,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -1490,6 +1731,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -1500,6 +1745,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
                     <Principal
@@ -1509,6 +1758,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
@@ -1567,6 +1820,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -1576,6 +1833,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -1587,6 +1848,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -1596,6 +1861,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
@@ -1607,10 +1876,90 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
         </RunTimePermissions>
-        <Entities></Entities>
+        <Entities>
+            <Entity
+             name="CICDCSSStyle"
+             type="StyleDefinition">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="styleCheckbox"
+             type="StyleDefinition">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="DemoStyleCICD"
+             type="StyleDefinition">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="IOT_Style"
+             type="StyleDefinition">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="TestCICDStyle"
+             type="StyleDefinition">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+        </Entities>
     </StyleDefinitions>
     <StyleThemes>
         <VisibilityPermissions>
@@ -1664,6 +2013,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -1673,6 +2026,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -1684,6 +2041,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -1694,6 +2055,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
                     <Principal
@@ -1703,6 +2068,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
@@ -1758,6 +2127,10 @@
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Create>
             <Read>
                 <Principal
@@ -1768,17 +2141,29 @@
                  isPermitted="true"
                  name="ComposerUsers"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Read>
             <Update>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Update>
             <Delete>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Delete>
             <Metadata></Metadata>
@@ -1795,6 +2180,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -1804,6 +2193,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -1815,6 +2208,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -1824,6 +2221,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
@@ -1835,10 +2236,75 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
         </RunTimePermissions>
-        <Entities></Entities>
+        <Entities>
+            <Entity
+             name="MAshup_TagCICD"
+             type="Mashup">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="Mashup1"
+             type="Mashup">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="TestCICDMashup"
+             type="Mashup">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="CICDTestMashup"
+             type="Mashup">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+        </Entities>
     </Mashups>
     <Menus>
         <VisibilityPermissions>
@@ -1892,6 +2358,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -1901,6 +2371,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -1912,6 +2386,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -1922,6 +2400,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
                     <Principal
@@ -1931,6 +2413,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
@@ -2022,6 +2508,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -2031,6 +2521,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -2042,6 +2536,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -2051,6 +2549,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
@@ -2062,10 +2564,30 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
         </RunTimePermissions>
-        <Entities></Entities>
+        <Entities>
+            <Entity
+             name="TestCICDMedia"
+             type="MediaEntity">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+        </Entities>
     </MediaEntities>
     <Projects>
         <VisibilityPermissions>
@@ -2082,11 +2604,19 @@
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Create>
             <Read>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Read>
             <Update>
@@ -2094,11 +2624,19 @@
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Update>
             <Delete>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Delete>
             <Metadata></Metadata>
@@ -2119,6 +2657,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -2128,6 +2670,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -2143,6 +2689,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -2152,6 +2702,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
@@ -2163,10 +2717,30 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
         </RunTimePermissions>
-        <Entities></Entities>
+        <Entities>
+            <Entity
+             name="TestCICDProject"
+             type="Project">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+        </Entities>
     </Projects>
     <Networks>
         <VisibilityPermissions>
@@ -2224,6 +2798,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -2233,6 +2811,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -2248,6 +2830,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -2258,6 +2844,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
                     <Principal
@@ -2267,6 +2857,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
@@ -2331,11 +2925,39 @@
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="chandk12"
+                 type="User"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="sankak12"
+                 type="User"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="srvamr-dgtsiiot"
+                 type="User"></Principal>
             </Create>
             <Read>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="chandk12"
+                 type="User"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="sankak12"
+                 type="User"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="srvamr-dgtsiiot"
+                 type="User"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Read>
             <Update>
@@ -2343,12 +2965,36 @@
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="chandk12"
+                 type="User"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="sankak12"
+                 type="User"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="srvamr-dgtsiiot"
+                 type="User"></Principal>
             </Update>
             <Delete>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="chandk12"
+                 type="User"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="sankak12"
+                 type="User"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="srvamr-dgtsiiot"
+                 type="User"></Principal>
             </Delete>
             <Metadata></Metadata>
         </DesignTimePermissions>
@@ -2584,6 +3230,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -2593,6 +3243,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -2604,6 +3258,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -2614,6 +3272,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
                     <Principal
@@ -2623,6 +3285,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
@@ -2644,11 +3310,19 @@
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Create>
             <Read>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Read>
             <Update>
@@ -2656,11 +3330,19 @@
                  isPermitted="true"
                  name="Administrators"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
             </Update>
             <Delete>
                 <Principal
                  isPermitted="true"
                  name="Administrators"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
             </Delete>
             <Metadata></Metadata>
@@ -2677,6 +3359,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -2686,6 +3372,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -2697,6 +3387,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -2707,6 +3401,10 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
                     <Principal
@@ -2716,6 +3414,10 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
                      type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
@@ -2899,6 +3601,10 @@
                  type="Group"></Principal>
                 <Principal
                  isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
                  name="TW.AnalyticsManager.Admin"
                  type="Group"></Principal>
                 <Principal
@@ -2921,6 +3627,10 @@
                  type="Group"></Principal>
                 <Principal
                  isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
                  name="TW.AnalyticsManager.Admin"
                  type="Group"></Principal>
                 <Principal
@@ -2939,6 +3649,10 @@
                  type="Group"></Principal>
                 <Principal
                  isPermitted="true"
+                 name="ThingworxAdmins"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
                  name="TW_AnalyticServer_Admin"
                  type="Group"></Principal>
             </Update>
@@ -2950,6 +3664,10 @@
                 <Principal
                  isPermitted="true"
                  name="FactoryUsers"
+                 type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="ThingworxAdmins"
                  type="Group"></Principal>
                 <Principal
                  isPermitted="true"
@@ -2978,6 +3696,14 @@
                      isPermitted="true"
                      name="PTC.Asset.Admin"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="ThingworxAdmins"
+                     type="Group"></Principal>
                 </PropertyRead>
                 <PropertyWrite>
                     <Principal
@@ -2991,6 +3717,14 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="ThingworxAdmins"
                      type="Group"></Principal>
                 </PropertyWrite>
                 <ServiceInvoke>
@@ -3010,6 +3744,14 @@
                      isPermitted="true"
                      name="PTC.Asset.Admin"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="ThingworxAdmins"
+                     type="Group"></Principal>
                 </ServiceInvoke>
                 <EventInvoke>
                     <Principal
@@ -3023,6 +3765,14 @@
                     <Principal
                      isPermitted="true"
                      name="IOTAppUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="ThingworxAdmins"
                      type="Group"></Principal>
                 </EventInvoke>
                 <EventSubscribe>
@@ -3038,10 +3788,49 @@
                      isPermitted="true"
                      name="IOTAppUsers"
                      type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
+                    <Principal
+                     isPermitted="true"
+                     name="ThingworxAdmins"
+                     type="Group"></Principal>
                 </EventSubscribe>
             </Permissions>
         </RunTimePermissions>
-        <Entities></Entities>
+        <Entities>
+            <Entity
+             name="TestResultsDT"
+             type="Thing">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="TestDemoThing"
+             type="Thing">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+        </Entities>
     </Things>
     <NotificationContents>
         <VisibilityPermissions>
