@@ -1135,6 +1135,22 @@
                 <RunTimePermissions></RunTimePermissions>
                 <RunTimeInstancePermissions></RunTimeInstancePermissions>
             </Entity>
+            <Entity
+             name="ThingshapeCICD"
+             type="ThingShape">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+                <RunTimeInstancePermissions></RunTimeInstancePermissions>
+            </Entity>
         </Entities>
     </ThingShapes>
     <ThingPackages>
