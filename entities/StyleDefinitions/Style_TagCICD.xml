@@ -12,10 +12,10 @@
          description=""
          documentationContent=""
          homeMashup=""
-         lastModifiedDate="2021-02-23T06:06:09.875-05:00"
-         name="IOT_Style"
-         projectName="TestCICDProject"
-         tags="">
+         lastModifiedDate="2021-02-23T06:06:19.261-05:00"
+         name="Style_TagCICD"
+         projectName=""
+         tags="TagCICD:IOT">
             <avatar></avatar>
             <DesignTimePermissions>
                 <Create></Create>

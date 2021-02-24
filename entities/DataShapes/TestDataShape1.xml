@@ -7,22 +7,16 @@
  revision="9"
  schemaVersion="1056"
  universal="password">
-    <Projects>
-        <Project
-         artifactId=""
-         dependsOn="{&quot;extensions&quot;:&quot;&quot;,&quot;projects&quot;:&quot;&quot;}"
+    <DataShapes>
+        <DataShape
+         baseDataShape=""
          description=""
          documentationContent=""
-         groupId=""
          homeMashup=""
-         lastModifiedDate="2021-02-23T06:06:09.886-05:00"
-         minPlatformVersion=""
-         name="TestCICDProject"
-         packageVersion="1.0.0"
-         projectName="TestCICDProject"
-         publishResult=""
-         state="DRAFT"
-         tags="">
+         lastModifiedDate="2021-02-23T06:06:19.260-05:00"
+         name="TestDataShape1"
+         projectName=""
+         tags="TagCICD:IOT">
             <avatar></avatar>
             <DesignTimePermissions>
                 <Create></Create>
@@ -37,6 +31,7 @@
             </VisibilityPermissions>
             <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
             <ConfigurationTables></ConfigurationTables>
-        </Project>
-    </Projects>
+            <FieldDefinitions></FieldDefinitions>
+        </DataShape>
+    </DataShapes>
 </Entities>
